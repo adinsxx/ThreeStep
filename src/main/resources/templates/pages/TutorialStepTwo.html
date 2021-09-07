@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies R Great</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css}">
+
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>Baking</h2>
+<img th:src="@{/img/ovencookies.jpg}">
+<p>
+<ol>
+    <li>Preheat the oven to 350ºF/180ºC.</li>
+    <li>Use coarser sugar for thicker, chewier cookies. When sugar dissolves, it acts as a tenderizer that interferes with dough structure. This increases spreading because finer sugar dissolves more easily than coarser sugar. So if you want your cookies to remain thick and chewy, use coarse sugar (or use fine sugar for the opposite effect). If you decide to use powdered sugar for extra crispiness, make sure it doesn't have corn starch in it, or you'll get unexpected results.[2] Mix these ingredients together until creamy.</li>
+    <li>Whisk flour, salt, and baking soda into another bowl.</li>
+    <li>Mix dry and wet ingredients until fully blended, without over-mixing. Add the milk to achieve a smoothly blended dough. There shouldn't be any clumps of flour or lumps of butter. Make sure all the ingredients are evenly distributed through your dough. After blending the mixture, add the chocolate chips. Mix them in.</li>
+    <li>Apply cooking spray to a pan so that the cookies won't stick to the baking pan. Alternatively, line the pan with wax paper.</li>
+    <li>Take a small quantity of your cookie dough and roll it in you hands into a ball shape. The ball will flatten when cooked so try to visualise the size of your finished cookie when you form the balls of dough. Make 24 balls of dough.</li>
+    <li>Place the cookie balls on the baking pan.</li>
+    <li>Flatten each cookie dough ball with a fork. This will leave distinct ridges and flatten the cookie neatly.</li>
+    <li>
+        Put cookies in the oven for about 8-10 minutes. Don't overdo the cooking, as they'll continue to cook for a short while after you remove them from the oven</li>
+</ol>
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

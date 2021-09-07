@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies R Great</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>How to make Chocolate Chip Cookies</h2>
+<p>
+    A timeless classic
+</p>
+<img th:src="@{/img/cookiesonsheet.jpg}">
+<p>
+    Content taken from <a href="https://www.wikihow.com/Make-Chewy-Chocolate-Chip-Cookies">here.</a>
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

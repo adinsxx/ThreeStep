@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies R Great</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css}">
+
+</head>
+<body>
+<h2>Enjoying</h2>
+<div th:insert="fragments/_header :: header"></div>
+<p>
+<h2>Enjoy with a nice glass of milk!</h2>
+    <img th:src="@{/img/cookiesnmilk.jpg}">
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
